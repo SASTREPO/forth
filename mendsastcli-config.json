@@ -1,7 +1,7 @@
 {
   "scans": {
       "timeouts": {
-         "perScan": 60
+         "perScan": 600
       }
     }
 }
