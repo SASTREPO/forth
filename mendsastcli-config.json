@@ -1,58 +1,7 @@
 {
-    "connection": {
-        "email": "goran.juranic@mend.io",
-        "token": "9c23cc8d5b604c58ebeeeb73efba2aa7939d61404ac8a77ed5b02ec601825e21",
-        "url": "https://sast-dev.whitesourcesoftware.com/sast",
-        "organizationId": "f3f1055d-7098-428b-935a-ceab01974b2a",
-        "timeoutMin": 10
-    },
-    "proxy": {
-        "enabled": false,
-        "url": "",
-        "username": "",
-        "password": ""
-    },
-    "cachePath": "",
-    "scans": {
-        "engines": [],
-        "directory": "",
-        "application": "TESTINGAPP321",
-        "template": "",
-        "submitSnippets": true,
-        "submitLogs": true,
-        "snippetSize": 10,
-        "exclusions": [],
-        "noDefaultExclusions": false,
-        "disableDefaultExclusions": false,
-        "incremental": false,
-        "uploadBaseline": false,
-        "baselineStorage": "",
-        "containerImage": "",
-        "retries": 0,
-        "threshold": {
-            "high": 0,
-            "medium": 0,
-            "low": 0,
-            "cwe": [],
-            "runtime": 480,
-            "onlyOnNew": false
-        },
-        "timeouts": {
-            "perLanguage": 480,
-            "perFile": 60
-        },
-        "maxFileSize": 1024
-    },
-    "reports": {
-        "generate": false,
-        "formats": [],
-        "type": "",
-        "level": "",
-        "filename": ""
-    },
-    "logs": {
-        "storageSizeLimit": 2048
-    },
-    "noColor": false,
-    "noProgress": false
+  "scans": {
+      "timeouts": {
+         "perScan": 600
+      }
+    }
 }
