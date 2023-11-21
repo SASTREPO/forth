@@ -10,6 +10,6 @@
       "perFile": 60
     },
     "maxFileSize": 1024,
-    "javascriptEngineGeneration": 2
+    "js": 2
   }
 }
